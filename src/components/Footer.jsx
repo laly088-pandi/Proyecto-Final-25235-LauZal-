@@ -4,7 +4,7 @@ import 'font-awesome/css/font-awesome.min.css';
 
 const Footer =() =>{
         return(
-            <footer className="bg-success text-secondary text-center py-5 mt-5">
+            <footer className="bg-success text-white text-center py-5 mt-5">
                 <Container>
                     <Row>
                         <Col md={6}>
