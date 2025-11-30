@@ -3,7 +3,7 @@ import { Row, Col } from 'react-bootstrap';
 import ProductCard from "./ProductCard";
 
 
-const ProductList = ({ category = null }) => {
+const ProductList = ({ category = null }) => {git status
   const [producto, setProducto] = useState([]);
   const [loading, setLoading] = useState(true);
 

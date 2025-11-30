@@ -20,7 +20,7 @@ const ProductCard =({product, agregarAlCarrito})=>{
                 <Card.Text>
                   <strong>${product.price}</strong>
                 </Card.Text>
-                <Button variant="primary" onClick={()=>agregarAlCarrito(product)}>
+                <Button variant="dark" onClick={()=>agregarAlCarrito(product)}>
                 Agregar Al Carrito
                 </Button>
             </Card.Body>     
